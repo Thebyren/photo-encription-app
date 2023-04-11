@@ -1,0 +1,24 @@
+<ui>:
+	MDScreen:
+		name: 'pantalla_principal'
+		md_bg_color:0.4549,.6275,.8392,1
+		MDBanner:
+
+		MDBoxLayout:
+			orientation:'vertical'
+			MDBoxLayout:
+				size_hint: 1,.2
+				orientation: 'horizontal'
+				padding: '10dp'
+				MDCard:
+					radius:'10dp'
+					padding:'10dp'
+					line_color:1,0,1,1
+					MDLabel:
+						text:'Bienvenido a tu encriptador'
+						font_size: '30sp'
+						halign:'center'
+						pos_hint:{'center_y':0.5}
+			MDGridLayout:
+				cols:3
+				size_hint:1,.8
